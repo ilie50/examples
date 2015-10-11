@@ -16,10 +16,12 @@
  */
 package org.apache.activemq.book.ch11;
 import org.apache.activemq.book.BrokerConfigTest;
+import org.junit.Ignore;
 /**
  * A CamelConfigTest
  *
  */
+@Ignore
 public class CamelConfigTest  extends BrokerConfigTest{
 
     /** 

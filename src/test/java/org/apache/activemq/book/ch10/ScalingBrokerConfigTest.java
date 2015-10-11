@@ -17,11 +17,13 @@
 package org.apache.activemq.book.ch10;
 
 import org.apache.activemq.book.BrokerConfigTest;
+import org.junit.Ignore;
 
 /**
  * A ScalingBrokerConfigTest
  *
  */
+@Ignore
 public class ScalingBrokerConfigTest extends BrokerConfigTest {
     /** 
      * @return
